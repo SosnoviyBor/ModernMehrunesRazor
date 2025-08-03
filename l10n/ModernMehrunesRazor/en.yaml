@@ -1,0 +1,31 @@
+messageOutdatedLuaAPI: >
+  Modern Mehrunes' Razor warning!
+  You need to update your OpenMW, otherwise the mod won't work!
+  Please install a newer build from at least August 2025!
+messageDaedricBanishing: "Through the Razor, Mehrunes Dagon claims this soul!"
+
+
+page_name: "Modern Mehrunes' Razor"
+page_description: "Adds an instakill chance to the Mehrunes' Razor."
+
+general_group_name: "General"
+modEnabled_name: "Mod Enabled"
+preset_name: "Mod Preset"
+preset_description: |
+  - BC -> Base Chance
+  - PL -> Player Luck
+  - LM -> Luck Modifier
+  
+  Available presets:
+  - Oblivion-style -> PL * 0.05
+  - Skyrim-style -> 2/101 (1.98%)
+  - Custom -> BC + PL * LM
+baseChance_name: "Base Chance"
+baseChance_description: "BC value for Custom preset."
+luckModifier_name: "Luck Modifier"
+luckModifier_description: "LM value for Custom preset."
+
+onInstakill_group_name: "On Instakill"
+showMessage_name: "Show message"
+showMessage_description: "As in Oblivion."
+playSFX_name: "Play SFX"
