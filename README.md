@@ -15,5 +15,13 @@ The mod doesnt change the Mehrunes' Razor in any way, it just adds additional Lu
 ## Installation
 Installs like any other OpenMW mod. Not sure about pre-0.49 OpenMW support, but you should use newest builds anyway.
 
+There's also optional omwaddon which removes all enchantments from Mehrunes' Razor. In case you want to balance out this buff. It's also safe to install and uninstall it mid-playthrough.
+
 ## Compatibility
 Yes.
+
+## Other cool Mehrunes' Razor mods
+
+They won't nessecarily work well with this mod, but they're still cool in my opinion.
+
+- [Artifacts Reworked Constant Effect and other changes](https://www.nexusmods.com/morrowind/mods/56702) - Turns the Razor into a glass cannon type of weapon. Guaranteed instakill, but it takes a lot of souls to recharge.
