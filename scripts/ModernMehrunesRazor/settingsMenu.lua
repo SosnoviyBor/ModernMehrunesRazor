@@ -8,7 +8,7 @@ I.Settings.registerPage {
 }
 
 I.Settings.registerGroup {
-    key = 'GeneralModernMehrunesRazor',
+    key = 'SettingsModernMehrunesRazor_general',
     page = 'ModernMehrunesRazor',
     l10n = 'ModernMehrunesRazor',
     name = 'general_group_name',
@@ -54,7 +54,7 @@ I.Settings.registerGroup {
 }
 
 I.Settings.registerGroup {
-    key = 'OnInstakillModernMehrunesRazor',
+    key = 'SettingsModernMehrunesRazor_onInstakill',
     page = 'ModernMehrunesRazor',
     l10n = 'ModernMehrunesRazor',
     name = 'onInstakill_group_name',

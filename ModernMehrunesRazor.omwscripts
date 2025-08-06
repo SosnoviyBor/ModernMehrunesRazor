@@ -1,2 +1,3 @@
-PLAYER: scripts/DeadlyMehrunesRazor/player.lua
-MENU: scripts/DeadlyMehrunesRazor/settingsMenu.lua
+PLAYER: scripts/ModernMehrunesRazor/player.lua
+NPC: scripts/ModernMehrunesRazor/npc.lua
+MENU: scripts/ModernMehrunesRazor/settingsMenu.lua
