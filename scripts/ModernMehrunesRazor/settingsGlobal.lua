@@ -57,7 +57,7 @@ I.Settings.registerGroup {
             name = 'counterRollModifier_name',
             renderer = 'number',
             integer = false,
-            default = 0.005,
+            default = 0.01,
         },
         {
             key = 'debugMode',
