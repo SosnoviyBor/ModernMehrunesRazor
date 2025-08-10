@@ -2,13 +2,21 @@
 
 Adds instakill chance to the Mehrunes' Razor. Daedric Banishing style.
 
-The mod doesnt change the Mehrunes' Razor in any way, it just adds additional Lua script for it.
+Let's be real, does anyone like vanilla Mehrunes' Razor? Me neither. Daedric artifacts in my opinion need to be unique and memorable and later games really nailed it. That's why I'm presenting you a daedric artifact WORTHY of the name of the daedric prince of destruction itself!
 
-## Presets
+## Features
+
+### Presets (in percents)
 - Oblivion -> PlayerLuck * 0.05
 - Skyrim -> 2/101 (1.98%)
 - Custom -> BaseChance + PlayerLuck * LuckModifier
 - Cheater -> yes
+
+### Enemy Luck Counters
+Option to add (-EnemyLuck * EnemyLuckModifier) to the end of equation. All toggleable and configurable.
+
+### Effects!
+Not really. Just pop-up message like in Oblivion and vanilla crit sfx on instakill. All toggleable.
 
 ## Requirements
 - OpenMW July 2025 dev build or newer (API version 87 or newer)
@@ -16,7 +24,7 @@ The mod doesnt change the Mehrunes' Razor in any way, it just adds additional Lu
 ## Installation
 Installs like any other OpenMW mod. Not sure about pre-0.49 OpenMW support, but you should use newest builds anyway.
 
-There's also optional omwaddon which removes all enchantments from Mehrunes' Razor. In case you want to balance out this buff. It's also safe to install and uninstall it mid-playthrough.
+There's also optional omwaddon which removes all enchantments from Mehrunes' Razor.
 
 ## Compatibility
 Yes.
