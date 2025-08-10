@@ -2,7 +2,7 @@
 
 ## 1.0.1
 
-Changed default Enemy Counter chance
+Changed default ELM value
 
 ## 1.0
 
