@@ -16,14 +16,23 @@ preset_description: |
   - PL -> Player Luck
   - LM -> Luck Modifier
   
-  Available presets:
+  Available presets (in percents):
   - Oblivion-style -> PL * 0.05
-  - Skyrim-style -> 2/101 (1.98%)
+  - Skyrim-style -> 2/101 -> 1.98%
   - Custom -> BC + PL * LM
+  - Cheater -> yes
 baseChance_name: "Base Chance"
 baseChance_description: "BC value for Custom preset."
 luckModifier_name: "Luck Modifier"
 luckModifier_description: "LM value for Custom preset."
+counterRollEnabled_name: "Take Enemy Luck Into Account"
+counterRollEnabled_description: |
+  Adds (-EL * ELM) to the end of the formula.
+  - EL -> Enemy Luck
+  - ELM -> Enemy Luck Modifier
+counterRollModifier_name: "Enemy Luck Modifier"
+debugMode_name: "Debug Mode"
+debugMode_description: "Print roll values to the console."
 
 onInstakill_group_name: "On Instakill"
 showMessage_name: "Show message"

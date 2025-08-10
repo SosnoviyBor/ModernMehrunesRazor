@@ -1,3 +1,5 @@
 PLAYER: scripts/ModernMehrunesRazor/player.lua
+CREATURE: scripts/ModernMehrunesRazor/npc.lua
 NPC: scripts/ModernMehrunesRazor/npc.lua
 MENU: scripts/ModernMehrunesRazor/settingsMenu.lua
+GLOBAL: scripts/ModernMehrunesRazor/settingsGlobal.lua

@@ -8,6 +8,7 @@ The mod doesnt change the Mehrunes' Razor in any way, it just adds additional Lu
 - Oblivion -> PlayerLuck * 0.05
 - Skyrim -> 2/101 (1.98%)
 - Custom -> BaseChance + PlayerLuck * LuckModifier
+- Cheater -> yes
 
 ## Requirements
 - OpenMW July 2025 dev build or newer (API version 87 or newer)
@@ -24,4 +25,4 @@ Yes.
 
 They won't nessecarily work well with this mod, but they're still cool in my opinion.
 
-- [Artifacts Reworked Constant Effect and other changes](https://www.nexusmods.com/morrowind/mods/56702) - Turns the Razor into a glass cannon type of weapon. Guaranteed instakill, but it takes a lot of souls to recharge.
+- [Artifacts Reworked Constant Effect and other changes](https://www.nexusmods.com/morrowind/mods/56702) by WezKal - Turns the Razor into a glass cannon type of weapon. Guaranteed instakill, but it takes a lot of souls to recharge.
