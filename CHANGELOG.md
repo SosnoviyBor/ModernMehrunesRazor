@@ -1,5 +1,11 @@
 # Modern Mehrunes' Razor
 
+## 2.0.1
+
+### Fixes
+
+- Fixed throwing weapons breaking the script
+
 ## 2.0
 
 ### Features

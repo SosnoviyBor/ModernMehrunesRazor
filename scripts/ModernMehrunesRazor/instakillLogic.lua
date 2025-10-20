@@ -6,14 +6,23 @@ require("scripts.ModernMehrunesRazor.instakillData")
 local sectionGeneral = storage.globalSection("SettingsModernMehrunesRazor_general")
 
 function DoInstakill(attack)
+    -- general checks
     if not sectionGeneral:get("modEnabled") then return end
-    if not (attack.weapon.recordId == "mehrunes'_razor_unique" and attack.successful) then return end
+    if not attack.successful or attack.sourceType ~= "melee" then return end
+
+    -- weapon checks
+    local weapon = attack.weapon
+    if not weapon or weapon.recordId ~= "mehrunes'_razor_unique" then return end
+
+    -- blacklist check
     if InInstakillBlacklist(self) then return end
 
+    -- instakill calculation
     local gameRoll = math.random()
     local preset = Presets[sectionGeneral:get("preset")]
     local instakillChance = preset(attack.attacker)
 
+    -- counter roll calculation
     if sectionGeneral:get("counterRollEnabled") then
         local el = GetActorLuck(self).modified
         local elm = sectionGeneral:get("counterRollModifier")
