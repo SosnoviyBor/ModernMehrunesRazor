@@ -50,8 +50,7 @@ An optional `.omwaddon` is included to remove all enchantments from Mehrunes' Ra
 
 Yes.
 
-## Other cool Mehrunes' Razor mods
+## Consider Also
 
-These may not work perfectly with this mod, but they're still worth checking out:
-
-- [Artifacts Reworked Constant Effect and Other Changes](https://www.nexusmods.com/morrowind/mods/56702) by WezKal – Turns the Razor into a glass-cannon weapon: guaranteed instakill, but it consumes a lot of souls to recharge.
+- [Artifacts Reworked Constant Effect and Other Changes](https://www.nexusmods.com/morrowind/mods/56702) by WezKal – Turns the Razor into a glass-cannon weapon: guaranteed instakill, but it consumes a lot of souls to recharge. May not work perfectly with MMR, but still worth checking out.
+- [Umbra Unlimited](https://www.nexusmods.com/morrowind/mods/57749) by me - Brings the Umbra Sword up to its legendary name - now it will inflict Soul Trap with every hit, regardless of its enchantment or charge.
